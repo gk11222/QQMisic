@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+
+        <style>
+			.item {}
+		</style>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+       
+       
+    <link rel="stylesheet" href="css/player.css" />
+    <link rel="stylesheet" href="css/key.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    
+    
+</head>
+<body>		
+    <div id="bg" class="bg " style="background-image: url(img/Jay1.jpg);">
+       <div class="bg-cover"></div>
+    </div>
+        <div class="title ">
+          <div class="music-info">
+            <div class="song" id="curr">双截棍</div>
+            <div class="artist" id="artist">周杰伦</div>
+          </div>
+        </div> 
+ 	
+    <div class="play-board ">    	                      
+        <div class="disk-cover disk-cover-animation" style="left: 50%; animation-play-state: running;">
+            <img class="disk-border" src="./img/Jay.png" draggable="false">
+        </div>      
+        
+        <div class="footer">       	
+            <div class="process" id="process">
+                <span id="currentTime">00:00</span>
+            <div class="process-bar">
+                <div class="rdy "></div>
+                <div class="cur ">
+                  <span id="processBtn "></span>
+                </div>
+            </div>
+                  <span id="totalTime">00:00</span>
+            </div>           
+           
+
+            </div>
+             <div class="control " id="controls">
+                  <span class="c-btn loop-btn"></span>
+                  <span class="pre c-btn"></span>                  
+                  <span class="play c-btn"></span>                 
+                  <span class="next c-btn"></span>
+              <span class="c-btn list-btn" id="add"> 
+
+                <div id="title_submenu" class=" bg-cover">
+                  	
+		<audio controls="controls" id="player" autoplay="autoplay"></audio>
+        <br>
+        
+		        <div id="list"></div>
+                  <div class="item" data-source="告白气球.mp3">告白气球-周杰伦</div>
+			      <div class="item" data-source="双截棍.mp3">双截棍-周杰伦</div>
+			      <div class="item" data-source="以父之名.mp3">以父之名-周杰伦</div>                  
+                </div>
+        </span>
+                  
+               
+        </div>
+    </div>  
+    
+    <div id="playAudio">
+    	
+   	  <audio id="music" src="music/双截棍.mp3"  loop="loop"></audio>
+
+   	</div>
+</body> 
+</html>
+
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="js/play.js"></script>
+<script type="text/javascript" src="js/process-bar.js"></script>
+<script type="text/javascript" src="js/title.js" ></script>

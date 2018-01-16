@@ -1,0 +1,160 @@
+#comment{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+#comment_title {
+	width: 100%;
+	position: fixed;
+	height: 80px;
+	background-color: white;
+	border-bottom: 1px solid whitesmoke;
+}
+#comment_title_return{
+	width: 50px;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 20px;
+	background-image: url(../img/返.svg);
+	background-repeat: no-repeat;
+	
+}
+.comment_title_text1{
+	width: 100%;
+	height: 50px;
+	font-size: xx-large;
+	margin-left: 20px;
+	
+}
+.comment_title_text2{
+	width: 100%;
+	height: 60px;
+	font-size: xx-large;
+	margin-left: 20px;
+}
+#chinese{
+	width: 100%;
+	height:40px;
+	
+}#chinese-1{
+	width: 60px;
+	height: 30px;
+	border-radius:20px ;
+	font-size:small ;
+	border: 1px solid #BDBDBD;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 20px;
+}
+#content_top_branch1{
+	height:60px;
+	width: 300px;
+	margin-left: 10px;
+	
+}
+#content_top_branch2{
+	width: 100px;
+	height: 30px;
+	margin-top: 5px;
+}
+#content_top_text1{
+	width: 200px;
+	color: #757575;
+	height: 20px;
+}
+#comment_img{
+	width: 90%;
+	height: 150px;
+	margin-left:20px;
+	background-image: url(../img/content_img.png);
+}
+#content_middle{
+	width: 100%;
+	height: 800px;
+	font-size: 110%;
+	margin-left: 20px ;
+	margin-top: 20px;
+}
+#button_discuss{
+	width: 100%;
+	height: 30px;
+	margin-top: 130px;
+	margin-left: 20px;
+}
+#button_discuss_text{
+	width: 40px;
+	height: 28px;
+}
+#button_discuss_text_2{
+	width: 40px;
+	height: 28px;
+}
+#button_discuss_main_title{
+	width: 100%;
+	height: 55px;
+	margin-top: 10px;
+}
+#content_top_img1{
+	width: 40px;
+	height: 40px;
+	border-radius:50% ;
+	background-size: 130%;
+	background-image: url(../img/user-01.jpg);
+	background-repeat: no-repeat;
+}
+#button_discuss_main{
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #E0E0E0;
+}
+#button_discuss_main_middle{
+	margin-left: 70px;
+}
+#content_top_img1_1{
+	width: 40px;
+	height: 40px;
+	border-radius:50% ;
+
+	background-image: url(../img/shutterbug.jpg);
+	background-repeat: no-repeat;
+}
+#content_button_report{
+	width: 100%;
+	height: 50px;
+	flex: 1;
+}
+
+#input{
+	width: 250px;
+	height: 30px;
+	margin-left: 20px;
+	background-color: #FAFAFA;
+}
+#smile_face{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/笑脸.svg);
+	
+}
+#submit{
+	background-color: #32CD32;
+	height: 30px;
+	width: 55px;text-align: center;
+	line-height: 30px;
+	margin-right: 20px;
+}
+#content_button_img_comment1{
+	height: 100%;
+	width: 50px;
+	background-image: url(../img/agree.svg);
+	background-repeat: no-repeat;
+}
+#content_button_img_comment2{
+	height: 100%;
+	width: 50px;
+	background-image: url(../img/agree.svg);
+	background-repeat: no-repeat;
+}
+#content_middle_img{
+	
+}

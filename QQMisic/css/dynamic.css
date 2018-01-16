@@ -1,0 +1,60 @@
+
+#dynamic {
+	width: 100%;
+	height: 5000px;
+	flex: 1;
+	overflow: scroll;
+}
+#sing_background{
+	width: 100%;
+	height: 380px;
+	display: flex;
+	background-image: url(../img/dyimg.png);
+	background-repeat: no-repeat;
+}
+#sing{
+	width: 100%;
+	height: 140px;
+	border-bottom: 1px solid #F5F5F5;
+}
+#sing_dynamic{
+	width: 100%;
+	height: 20px;
+	margin-left: 10px;
+}
+#sing_dynamic_text{
+	width: 100px;
+	height: 18px;
+	background-color: #32CD32;
+	text-align: center;
+	margin-top:10px ;
+}
+#sing_chunk{
+	margin-top:10px ;
+	width: 100px;
+	height: 100px;
+}
+#sing_chunk_img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url(../img/zhou.png);
+}
+#sing_chunk_img1{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url(../img/zhang.jpg);
+}
+#sing_chunk_img2{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url(../img/chen.jpg);
+}
+#sing_chunk_img3{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url(../img/xue.jpg);
+}

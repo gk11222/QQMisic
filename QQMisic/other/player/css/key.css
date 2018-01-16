@@ -1,0 +1,112 @@
+#player {
+	display: none;
+}
+
+.c-btn {
+	background-position: center;
+	display: inline-block;
+	-webkit-filter: brightness(0.9);
+}
+
+.c-btn:hover {
+	-webkit-filter: brightness(1);
+}
+/*进度条*/
+.process {
+	width: 350px;
+	height: 50px;
+	position: absolute;
+	bottom: 80px;
+	margin: 0px -170px;
+	left: 47%;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.process .process-bar {
+	position: absolute;
+	left: 40px;	
+	width: 274px;
+	margin-top: 7px;	
+	margin-right: 5px;
+	background-color: #615D5C;
+}
+.process-bar .rdy {
+	height: 3px;
+	width: 275px;		
+}
+.process-bar .cur {	
+	height: 3px;
+	width: 0px;
+	position: absolute;
+	background-color:springgreen4;	
+}
+.process>span:first-child {
+	position: absolute;
+	left: 0px;
+}
+.process>span:last-child {
+	position: absolute;
+	right: 0px;
+}
+/*播放控制*/
+.control {
+	position: absolute;	
+	width: 350px;
+	bottom: 10px;
+	margin-left:23px;	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+
+}
+/*上一首*/
+.control .c-btn {
+	cursor: pointer;
+	background-position: center;
+	background-size: contain;
+	width: 50px;
+	height: 50px;
+}
+.control .c-btn.pre {
+	background-image: url(../img/play_btn_prev.png);
+}
+/*开始*/
+.control .c-btn.play,
+.c-btn.pause {
+	width: 70px;
+	height: 70px;
+}
+.control .c-btn.play {
+	background-image: url(../img/play_rdi_btn_play.png);
+}
+/*暂停*/
+.control .c-btn.pause {
+	background-image: url(../img/play_rdi_btn_pause.png);
+}
+/*下一首*/
+.control .c-btn.next {
+	background-image: url(../img/play_btn_next.png);
+}
+
+.control .c-btn.list-btn,
+.control .c-btn.loop-btn {
+	width: 32px;
+	height: 32px;
+}
+/*播放列表*/
+.control .c-btn.list-btn {	
+	 background-image: url(../img/play_icn_src.png);
+}
+/*循环*/
+.control .c-btn.loop-btn {
+	position: relative;
+	background-image: url(../img/play_icn_loop.png);
+}
+.control .c-btn.loop-btn.active:after {
+	content: '1';
+	position: absolute;
+	top: 14px;
+	font-size: 12px;
+	left: 14px;
+}

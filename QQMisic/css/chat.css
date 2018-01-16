@@ -1,0 +1,114 @@
+#content{
+	width: 100%;
+	height: 220px;
+}
+#content_top{
+	width: 100%;
+	height: 50px;
+	margin-left: 15px;
+}
+#content_top_img{
+	width: 40px;
+	height: 40px;
+	border-radius:50% ;
+	background-image: url(../img/dream.jpg);
+}
+#content_top_branch{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+#content_top_text{
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: xx-small;
+	color: #757575;
+}
+#content_middle{
+	width: 100%;
+	height: 130px;
+}
+#content_middle_text{
+	flex: 2;
+	height: 130px;
+}
+#content_middle_img{
+	flex: 1;
+	height: 130px;
+}
+#content_middle_text_top{
+	width: 90%;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size:120% ;
+
+	
+}
+#content_middle_text_button{
+	width: 90%;
+	height: 70px;
+	color: #757575;
+	
+	
+	}
+#content_middle_text_top1{
+	width: 90%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+#content_middle_text_top2{
+	width: 90%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+#content_middle_img{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/and.png);
+	background-repeat: no-repeat;
+}
+#content_middle_img1{
+	width: 120px;
+	height: 100%;
+	margin-right: 20px;
+	background-image: url(../img/girl.png);
+	background-repeat: no-repeat;
+}
+#content_button_text{
+	height: 100%;
+	flex: 1;
+	margin-left: 15px;
+	font-size: xx-small;
+	color: #32CD32;
+}
+#content_button_img_comment{
+	height: 100%;
+	width: 50px;
+	background-image: url(../img/agree.svg);
+	background-repeat: no-repeat;
+}
+#content_button_img_agree{
+	height: 100%;
+	width: 50px;
+	background-image: url(../img/comment.svg);
+	background-repeat: no-repeat;
+}
+#content_top_img1{
+	width: 40px;
+	height: 40px;
+	border-radius:50% ;
+	background-image: url(../img/shutterbug.jpg);
+}
+#content_button_img_comment3{
+	height: 100%;
+	width: 50px;
+	background-image: url(../img/agree.svg);
+	background-repeat: no-repeat;
+}
+
